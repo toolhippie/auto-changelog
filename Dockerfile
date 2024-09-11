@@ -2,7 +2,7 @@ FROM ghcr.io/dockhippie/alpine:3.20
 ENTRYPOINT [""]
 
 # renovate: datasource=npm depName=auto-changelog
-ENV AUTO_CHANGELOG_VERSION=2.4.0
+ENV AUTO_CHANGELOG_VERSION=2.5.0
 
 RUN apk update && \
   apk upgrade && \
